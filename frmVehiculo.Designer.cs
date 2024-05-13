@@ -33,7 +33,7 @@
             // 
             // btnAparecer
             // 
-            this.btnAparecer.Location = new System.Drawing.Point(388, 415);
+            this.btnAparecer.Location = new System.Drawing.Point(363, 415);
             this.btnAparecer.Name = "btnAparecer";
             this.btnAparecer.Size = new System.Drawing.Size(75, 23);
             this.btnAparecer.TabIndex = 0;
@@ -48,6 +48,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.btnAparecer);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmVehiculo";
